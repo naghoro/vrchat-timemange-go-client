@@ -36,13 +36,13 @@ vrchat-timemange-go-client$ make
 send OSC once an hour
 
 ```
-./appmanager
+vrchat-timemange-go-client$ ./appmanager
 ```
 
 You can change second of hour for testing.
 Below, send OSC once a second.
 
 ```
-./appmanager -sec=1s
+vrchat-timemange-go-client$ ./appmanager -sec=1s
 ```
 
