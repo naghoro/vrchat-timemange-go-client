@@ -3,10 +3,10 @@ time manage client for VRChat, send OSC once an hour
 
 ## Overview
 
-When client start, client send OSC to 127.0.0.1:9000.
+When the client starts, it sends OSC to 127.0.0.1:9000.
 
-It send OSC once a hour.
-When client start, it send firstly and then send second time after one hour.
+It sends OSC once a hour.
+When the client starts, it send firstly and then send second time after one hour.
 
 If the current time is 15:15, message will be sent as follows:
 
